@@ -2,3 +2,5 @@ git config --global alias.last 'log -1 HEAD'
 git config --global alias.mylog 'log --name-only --oneline --pretty=format:"%h - %an, %ar : %s"'
 git config --global alias.mysave '!git add --all && git commit'
 git config --global alias.mylogfile '!git log --pretty=format:"%h - %an, %ar : %s" -p'
+git config --global alias.mynewrepo '!git init . && git add --all && git commit'
+git checkout commitnr file
